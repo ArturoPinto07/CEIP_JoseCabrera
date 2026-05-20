@@ -2,6 +2,7 @@ import CardTuNombre from '@/components/cards/CardAbraham';
 import CardEjemplo from '@/components/cards/CardEjemplo';
 import CardJoseAgustin from '@/components/cards/CardJoseAgustin';
 import CardArturo from '@/components/cards/CardArturo';
+import CardJuanSilva from '@/components/cards/CardJuanSilva';
 // ════════════════════════════════════════════════════════════
 //  📌  REGISTRO DE TARJETAS
 //  Aquí cada alumno importa SU componente arriba y lo añade
@@ -15,6 +16,8 @@ import CardArturo from '@/components/cards/CardArturo';
 // ↓ AÑADE TU <Card... /> EN LA LISTA ↓
 const tarjetas = [
   <CardJoseAgustin key="jose-agustin" />,
+  <CardJuanSilva key="juan-silva" />,
+  // <CardTuNombre key="tu-nombre" />,
   <CardTuNombre key="Abraham" />,
 ];
 
